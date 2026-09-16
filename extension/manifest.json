@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "SentinelPhish - AI Phishing URL Scanner",
+  "version": "1.0.0",
+  "description": "Real-time AI multi-layer phishing URL detection and security risk evaluation.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SentinelPhish Security Check"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

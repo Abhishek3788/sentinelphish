@@ -1,0 +1,122 @@
+body {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0F172A;
+  color: #F8FAFC;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #1E293B;
+  border-bottom: 1px solid #334155;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #38BDF8;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.badge-phishing { background-color: #EF4444; color: white; }
+.badge-suspicious { background-color: #F59E0B; color: white; }
+.badge-safe { background-color: #10B981; color: white; }
+.badge-checking { background-color: #64748B; color: white; }
+
+.content {
+  padding: 16px;
+}
+
+.url-bar {
+  font-size: 11px;
+  color: #94A3B8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 12px;
+}
+
+.score-card {
+  text-align: center;
+  padding: 12px;
+  background-color: #1E293B;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #334155;
+}
+
+.score-number {
+  font-size: 32px;
+  font-weight: 800;
+  color: #F8FAFC;
+}
+
+.score-label {
+  font-size: 11px;
+  color: #94A3B8;
+}
+
+.explanation-box {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #CBD5E1;
+  background: #182234;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #94A3B8;
+  margin-bottom: 6px;
+}
+
+.flags-list {
+  font-size: 11px;
+  max-height: 100px;
+  overflow-y: auto;
+  margin-bottom: 14px;
+}
+
+.flag-item {
+  color: #FCA5A5;
+  padding: 4px 0;
+  border-bottom: 1px solid #1E293B;
+}
+
+.no-flags {
+  color: #64748B;
+}
+
+.scan-button {
+  width: 100%;
+  padding: 8px;
+  background-color: #0284C7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.scan-button:hover {
+  background-color: #0369A1;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SentinelPhish</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="brand">
+      <span class="shield-icon">🛡️</span>
+      <span class="brand-title">SentinelPhish</span>
+    </div>
+    <span id="verdict-badge" class="badge badge-checking">Checking...</span>
+  </div>
+
+  <div class="content">
+    <div class="url-bar" id="current-url">Detecting tab URL...</div>
+    
+    <div class="score-card">
+      <div class="score-number" id="risk-score">--</div>
+      <div class="score-label">Risk Score / 100</div>
+    </div>
+
+    <div class="explanation-box" id="explanation">
+      Scanning page safety indicators across 8 detection layers...
+    </div>
+
+    <div class="flags-section">
+      <div class="section-title">Red Flags</div>
+      <div id="red-flags-list" class="flags-list">
+        <div class="no-flags">No high-risk indicators found.</div>
+      </div>
+    </div>
+
+    <button id="scan-btn" class="scan-button">Re-scan Current Tab</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
