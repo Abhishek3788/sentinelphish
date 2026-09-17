@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SentinelPhish layer risk scores</title>
+  <desc id="desc">SentinelPhish dashboard showing detected red flags and a layer risk score bar chart.</desc>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect width="315" height="900" fill="#f0f3f7"/>
+  <text x="55" y="125" fill="#26354d" font-family="Arial,sans-serif" font-size="30" font-weight="700">🛡️ SentinelPhish</text>
+  <text x="18" y="170" fill="#8b929c" font-family="Arial,sans-serif" font-size="16">AI-Powered Phishing Detection Platform</text>
+  <text x="20" y="230" fill="#183d70" font-family="Arial,sans-serif" font-size="17">Navigation</text>
+  <circle cx="28" cy="270" r="9" fill="#d5dbe3"/><text x="48" y="276" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Overview &amp; Telemetry</text>
+  <circle cx="28" cy="310" r="9" fill="#ff5058"/><text x="48" y="316" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Live URL Inspector</text>
+  <circle cx="28" cy="350" r="9" fill="#d5dbe3"/><text x="48" y="356" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Batch Scanner</text>
+  <circle cx="28" cy="390" r="9" fill="#d5dbe3"/><text x="48" y="396" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Feedback &amp; Tuning</text>
+  <text x="400" y="125" fill="#27364d" font-family="Arial,sans-serif" font-size="33" font-weight="700">🚩 Detected Red Flags</text>
+  <circle cx="408" cy="178" r="9" fill="#dc4553"/><text x="430" y="185" fill="#26354d" font-family="Arial,sans-serif" font-size="17">[HIGH] ML Ensemble model flagged URL as high-risk phishing (80.6%)</text>
+  <text x="400" y="270" fill="#27364d" font-family="Arial,sans-serif" font-size="33" font-weight="700">📈 Layer Risk Scores</text>
+  <line x1="420" y1="700" x2="1510" y2="700" stroke="#ccd6e0"/>
+  <line x1="420" y1="520" x2="1510" y2="520" stroke="#e0e6ec"/><line x1="420" y1="340" x2="1510" y2="340" stroke="#e0e6ec"/>
+  <text x="385" y="705" fill="#758396" font-family="Arial,sans-serif" font-size="14">0</text><text x="375" y="525" fill="#758396" font-family="Arial,sans-serif" font-size="14">40</text><text x="375" y="345" fill="#758396" font-family="Arial,sans-serif" font-size="14">80</text>
+  <rect x="485" y="678" width="95" height="22" fill="#0877ce"/>
+  <rect x="820" y="690" width="95" height="10" fill="#0877ce"/>
+  <rect x="1120" y="337" width="95" height="363" fill="#0877ce"/>
+  <rect x="1420" y="690" width="95" height="10" fill="#0877ce"/>
+  <text x="532" y="755" text-anchor="middle" transform="rotate(-90 532 755)" fill="#69788b" font-family="Arial,sans-serif" font-size="14">ai_analysis</text>
+  <text x="867" y="755" text-anchor="middle" transform="rotate(-90 867 755)" fill="#69788b" font-family="Arial,sans-serif" font-size="14">content</text>
+  <text x="1167" y="755" text-anchor="middle" transform="rotate(-90 1167 755)" fill="#69788b" font-family="Arial,sans-serif" font-size="14">ml_ensemble</text>
+  <text x="1467" y="755" text-anchor="middle" transform="rotate(-90 1467 755)" fill="#69788b" font-family="Arial,sans-serif" font-size="14">visual</text>
+</svg>
