@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">SentinelPhish Dashboard Preview</title>
+  <desc id="desc">A security dashboard showing a phishing URL inspection interface with a sidebar and results panel.</desc>
+  <defs>
+    <style>
+      .bg { fill: #eef2f4; }
+      .panel { fill: #f6f8f9; }
+      .sidebar { fill: #eef1f3; }
+      .rail { fill: #e4e8eb; }
+      .border { stroke: #d7dfe5; stroke-width: 1; }
+      .header { fill: #f3f5f7; }
+      .text { fill: #273445; font-family: 'Segoe UI', Arial, sans-serif; }
+      .muted { fill: #687789; font-family: 'Segoe UI', Arial, sans-serif; }
+      .light { fill: #8d97a3; }
+      .primary { fill: #1f84ff; }
+      .primary-dark { fill: #0f5bc7; }
+      .danger { fill: #e55d62; }
+      .green { fill: #2ea373; }
+      .warning { fill: #ffb84d; }
+      .card { fill: #edf6ff; stroke: #d7eaf7; stroke-width: 1; }
+      .button { fill: #ef5d4f; }
+      .buttonText { fill: white; font-weight: 700; }
+      .safe { fill: #27a46b; font-weight: 700; }
+      .metric { fill: #2d3b4d; font-weight: 700; }
+      .score { fill: #212d3b; font-weight: 700; }
+      .small { font-size: 14px; }
+      .medium { font-size: 18px; }
+      .large { font-size: 34px; }
+      .xlarge { font-size: 52px; }
+      .tiny { font-size: 12px; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="960"/>
+
+  <rect x="0" y="0" width="320" height="960" class="sidebar"/>
+  <rect x="320" y="0" width="1280" height="960" class="panel"/>
+
+  <rect x="0" y="0" width="320" height="78" class="header"/>
+  <circle cx="30" cy="24" r="8" fill="#e13d3d"/>
+  <circle cx="52" cy="24" r="8" fill="#f4b13a"/>
+  <circle cx="74" cy="24" r="8" fill="#48c765"/>
+
+  <text x="126" y="104" class="text large" font-size="30" font-weight="700">SentinelPhish</text>
+  <text x="126" y="144" class="muted medium" font-size="20">AI-Powered Phishing Detection Platform</text>
+
+  <g>
+    <circle cx="28" cy="206" r="8" fill="#f45f5f"/>
+    <text x="54" y="213" class="text medium" font-size="18">Overview &amp; Telemetry</text>
+    <rect x="16" y="226" width="260" height="2" fill="#dfe5ea"/>
+  </g>
+
+  <g>
+    <circle cx="28" cy="270" r="8" fill="#f45f5f"/>
+    <text x="54" y="277" class="text medium" font-size="18">Live URL Inspector</text>
+    <rect x="16" y="290" width="260" height="2" fill="#dfe5ea"/>
+  </g>
+
+  <g>
+    <circle cx="28" cy="334" r="8" fill="#d5dde5"/>
+    <text x="54" y="341" class="text medium" font-size="18">Batch Scanner</text>
+    <rect x="16" y="354" width="260" height="2" fill="#dfe5ea"/>
+  </g>
+
+  <g>
+    <circle cx="28" cy="398" r="8" fill="#d5dde5"/>
+    <text x="54" y="405" class="text medium" font-size="18">Feedback &amp; Tuning</text>
+  </g>
+
+  <rect x="337" y="0" width="1263" height="70" class="header"/>
+  <text x="770" y="102" class="text xlarge" font-size="52" text-anchor="middle" font-weight="700">Live Multi-Layer URL Inspector</text>
+
+  <g>
+    <rect x="460" y="200" width="690" height="74" rx="8" fill="#e7edf4" stroke="#d2d9e1"/>
+    <text x="490" y="247" class="muted medium" font-size="25">https://hole.cert.pl/domains/v2/domains_rpz.db</text>
+  </g>
+
+  <rect x="620" y="292" width="170" height="54" rx="8" class="button"/>
+  <text x="705" y="325" text-anchor="middle" class="buttonText medium" font-size="24">Run Inspection</text>
+
+  <line x1="470" y1="380" x2="1120" y2="380" stroke="#d4dbe0"/>
+
+  <g>
+    <text x="570" y="470" class="safe large" font-size="46" font-weight="700">Verdict:</text>
+    <text x="770" y="470" class="safe large" font-size="46" font-weight="700">Safe</text>
+    <text x="890" y="470" class="metric medium" font-size="28">Risk Score</text>
+    <text x="1075" y="470" class="score medium" font-size="28">18.29 / 100</text>
+    <text x="1245" y="470" class="metric medium" font-size="28">Confidence</text>
+    <text x="1390" y="470" class="score medium" font-size="28">HIGH</text>
+  </g>
+
+  <g>
+    <text x="585" y="530" class="muted medium" font-size="24">Latency: 5009.32 ms | Cached: False</text>
+  </g>
+
+  <g>
+    <rect x="490" y="570" width="660" height="70" rx="8" class="card"/>
+    <text x="535" y="611" class="text medium" font-size="26">AI Security Explanation: AI Analysis: URL exhibits standard structural patterns.</text>
+  </g>
+
+  <g>
+    <path d="M505 710 L490 740 L520 740 Z" fill="#f05559"/>
+    <text x="560" y="735" class="text xlarge" font-size="42" font-weight="700">Detected Red Flags</text>
+  </g>
+
+  <g>
+    <circle cx="545" cy="780" r="8" fill="#e15355"/>
+    <text x="565" y="788" class="text medium" font-size="24">[HIGH] ML Ensemble model flagged URL as high-risk phishing (80.6%)</text>
+  </g>
+
+  <g>
+    <path d="M505 850 L505 835 L525 835 L525 850 L530 850 L515 868 L500 850 Z" fill="#d4dae3"/>
+    <rect x="510" y="835" width="17" height="17" fill="#d4dae3"/>
+    <text x="560" y="852" class="text xlarge" font-size="42" font-weight="700">Layer Risk Scores</text>
+  </g>
+
+  <g opacity="0.25">
+    <line x1="500" y1="900" x2="1180" y2="900" stroke="#b7c2cc"/>
+    <line x1="500" y1="850" x2="500" y2="900" stroke="#b7c2cc"/>
+    <line x1="720" y1="850" x2="720" y2="900" stroke="#b7c2cc"/>
+    <line x1="940" y1="850" x2="940" y2="900" stroke="#b7c2cc"/>
+    <line x1="1160" y1="850" x2="1160" y2="900" stroke="#b7c2cc"/>
+  </g>
+
+  <g>
+    <rect x="560" y="780" width="72" height="100" fill="#1a73d8"/>
+    <rect x="940" y="630" width="72" height="250" fill="#1a73d8"/>
+    <rect x="740" y="760" width="72" height="120" fill="#1a73d8"/>
+    <rect x="840" y="680" width="72" height="200" fill="#1a73d8"/>
+  </g>
+
+  <g>
+    <text x="1100" y="180" class="muted small" font-size="14">Deploy</text>
+    <circle cx="1495" cy="40" r="12" fill="#2a9c79"/>
+  </g>
+</svg>
