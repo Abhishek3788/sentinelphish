@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SentinelPhish live URL inspection result</title>
+  <desc id="desc">SentinelPhish dashboard showing a safe verdict, risk score, confidence, explanation, and detected red flags.</desc>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <rect width="315" height="900" fill="#f0f3f7"/>
+  <text x="55" y="125" fill="#26354d" font-family="Arial,sans-serif" font-size="30" font-weight="700">🛡️ SentinelPhish</text>
+  <text x="18" y="170" fill="#8b929c" font-family="Arial,sans-serif" font-size="16">AI-Powered Phishing Detection Platform</text>
+  <text x="20" y="230" fill="#183d70" font-family="Arial,sans-serif" font-size="17">Navigation</text>
+  <circle cx="28" cy="270" r="9" fill="#d5dbe3"/><text x="48" y="276" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Overview &amp; Telemetry</text>
+  <circle cx="28" cy="310" r="9" fill="#ff5058"/><text x="48" y="316" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Live URL Inspector</text>
+  <circle cx="28" cy="350" r="9" fill="#d5dbe3"/><text x="48" y="356" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Batch Scanner</text>
+  <circle cx="28" cy="390" r="9" fill="#d5dbe3"/><text x="48" y="396" fill="#26354d" font-family="Arial,sans-serif" font-size="17">Feedback &amp; Tuning</text>
+  <text x="790" y="125" text-anchor="middle" fill="#2d3342" font-family="Arial,sans-serif" font-size="48" font-weight="700">🔍 Live Multi-Layer URL Inspector</text>
+  <text x="400" y="190" fill="#26354d" font-family="Arial,sans-serif" font-size="16">Enter URL to analyze:</text>
+  <rect x="400" y="208" width="1170" height="50" rx="9" fill="#eef2f6"/>
+  <text x="420" y="240" fill="#34465e" font-family="Arial,sans-serif" font-size="17">https://hole.cert.pl/domains/v2/domains_rpz.db</text>
+  <rect x="400" y="280" width="145" height="52" rx="9" fill="#ff5058"/><text x="472" y="313" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="700">Run Inspection</text>
+  <line x1="400" y1="385" x2="1570" y2="385" stroke="#d7dce2"/>
+  <text x="400" y="455" fill="#27364d" font-family="Arial,sans-serif" font-size="29" font-weight="700">Verdict: <tspan fill="#18b681">Safe</tspan></text>
+  <text x="820" y="420" fill="#26354d" font-family="Arial,sans-serif" font-size="16">Risk Score</text><text x="820" y="465" fill="#26354d" font-family="Arial,sans-serif" font-size="39">18.29 / 100</text>
+  <text x="1210" y="420" fill="#26354d" font-family="Arial,sans-serif" font-size="16">Confidence</text><text x="1210" y="465" fill="#26354d" font-family="Arial,sans-serif" font-size="39">HIGH</text>
+  <text x="400" y="515" fill="#26354d" font-family="Arial,sans-serif" font-size="16">Latency: <tspan fill="#1674c4">5009.32 ms</tspan> | Cached: False</text>
+  <rect x="400" y="550" width="1170" height="62" rx="9" fill="#e5f1ff"/><text x="420" y="588" fill="#0561aa" font-family="Arial,sans-serif" font-size="16"><tspan font-weight="700">AI Security Explanation:</tspan> AI Analysis: URL exhibits standard structural patterns.</text>
+  <text x="400" y="690" fill="#26354d" font-family="Arial,sans-serif" font-size="31" font-weight="700">🚩 Detected Red Flags</text>
+  <circle cx="408" cy="735" r="9" fill="#dc4553"/><text x="430" y="742" fill="#26354d" font-family="Arial,sans-serif" font-size="16">[HIGH] ML Ensemble model flagged URL as high-risk phishing (80.6%)</text>
+</svg>
