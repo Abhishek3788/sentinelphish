@@ -2,10 +2,6 @@
 
 SentinelPhish is an open-source, multi-layer phishing URL detection platform built with Python (FastAPI), Groq LLM (`llama-3.3-70b-versatile`), a soft-voting Machine Learning Ensemble (Random Forest + XGBoost + LightGBM), Playwright content inspection, Streamlit telemetry dashboard, React web client, and Chrome Extension (Manifest V3).
 
-<p align="center">
-  <img src="docs/images/sentinelphish-dashboard-preview.svg" alt="SentinelPhish dashboard preview" width="1200" />
-</p>
-
 ---
 
 ## 🌟 Key Features
